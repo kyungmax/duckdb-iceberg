@@ -22,6 +22,7 @@ public:
 private:
 	static TableFunctionSet GetIcebergSnapshotsFunction();
 	static TableFunctionSet GetIcebergScanFunction();
+	static TableFunctionSet GetOptimizedIcebergScanFunction();
 	static TableFunctionSet GetIcebergMetadataFunction();
 };
 
