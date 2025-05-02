@@ -40,7 +40,8 @@ set(EXTENSION_SOURCES
     src/storage/irc_table_set.cpp
     src/storage/irc_transaction.cpp
     src/storage/irc_authorization.cpp
-    src/storage/irc_transaction_manager.cpp)
+    src/storage/irc_transaction_manager.cpp
+    src/iceberg_functions/optimized_iceberg_scan.cpp)
 
 add_library(${EXTENSION_NAME} STATIC ${EXTENSION_SOURCES})
 
